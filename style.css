@@ -1,0 +1,627 @@
+@font-face {
+  font-family: Helvetica-Medium;
+  src: url("./assets/fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-top: 6px solid red;
+  padding: 1rem;
+}
+.hero-bg-section {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.header-logo {
+  margin-right: 3rem;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.hero-bg-container {
+  width: 100vw;
+  height: 160vh;
+  background-color: black;
+  position: relative;
+}
+
+.main-img-block {
+  width: 100%;
+  height: 100%;
+}
+
+.main-bg-img,
+.main-bg-bottom-img {
+  width: 100%;
+  height: auto;
+}
+
+.main-bottom-img-block {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+}
+
+.main-heading-block {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 12.3%;
+  left: 22.4%;
+}
+
+.main-heading-img {
+  width: 30%;
+  height: auto;
+}
+
+.secondary-heading-block {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.secondary-heading-img {
+  width: 50%;
+  height: auto;
+}
+
+.main-info-block {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  top: 32%;
+  left: 15%;
+  color: white;
+  text-align: right;
+}
+
+.main-info-block p {
+  font-family: monospace;
+}
+
+.supplemant-heading-block {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  color: white;
+  text-align: right;
+}
+
+.supplemant-heading-img {
+  width: 100%;
+  height: auto;
+}
+
+.supplement-section {
+  width: 100vw;
+  height: 70vh;
+  padding-top: 0.5rem;
+  background-color: #971200;
+}
+
+.supplement-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  border-top: none;
+  padding: 0rem;
+  padding-left: 24%;
+  margin-top: 1rem;
+}
+
+.supplement-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.supplement-info-block {
+  width: 25%;
+  color: #dfdfdf;
+  text-align: left;
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  font-family: Helvetica, sans-serif;
+}
+
+.supplement-info-block p {
+  margin-bottom: 2rem;
+}
+
+button {
+  width: auto;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #971200;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 50px;
+  text-transform: uppercase;
+}
+
+.supplement-backdrop-block {
+  width: 67%;
+  height: auto;
+  position: absolute;
+  bottom: -50%;
+  right: 0%;
+}
+
+.supplement-backdrop-img {
+  width: 100%;
+  height: 100%;
+}
+
+.supplement-main-img-block {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  right: 13%;
+  z-index: 1111;
+}
+
+.supplement-main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.gear-section {
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+}
+
+.gear-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gear-item-block {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  left: 13%;
+}
+
+.gear-man-block {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  right: 13%;
+}
+
+.gear-man-img,
+.gear-bottom-img,
+.gear-item-img {
+  width: 100%;
+  height: 100%;
+}
+
+.gear-bottom-block {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+}
+
+.gear-m-h {
+  width: auto;
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  z-index: 111111;
+}
+
+.gear-info-block {
+  width: 25%;
+  font-family: Helvetica, sans-serif;
+  color: #dfdfdf;
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  left: 40%;
+}
+
+.gear-info-block p {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.gear-info-block button {
+  color: white;
+  background-color: grey;
+}
+
+.contact-section {
+  padding: 5rem 0rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-container h1 {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.c-info-block {
+  margin-left: 5rem;
+}
+
+.c-i-img-b {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.c-para-img {
+  margin-top: 3rem;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 4px solid #b29b60;
+}
+
+footer h1 {
+  color: #d1d1d1;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+/* Media Quiries */
+
+@media (max-width: 1480px) {
+  .main-heading-block {
+    top: 11.5%;
+    left: 22.5%;
+  }
+
+  .main-info-block {
+    top: 31%;
+    left: 17%;
+  }
+
+  .secondary-heading-img {
+    width: 60%;
+  }
+
+  .secondary-heading-block {
+    top: 44%;
+    left: 20%;
+  }
+
+  .main-bottom-img-block {
+    bottom: -3%;
+  }
+
+  .hero-bg-container {
+    height: 125vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .supplement-main-img-block {
+    right: 4%;
+  }
+
+  .gear-man-block {
+    right: -2%;
+  }
+
+  .gear-item-img {
+    width: 90%;
+    height: 100%;
+  }
+
+  .gear-item-block {
+    left: 10%;
+  }
+
+  .gear-m-h {
+    left: 28%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero-bg-container {
+    height: 100vh;
+  }
+
+  .main-heading-block {
+    top: 12.5%;
+  }
+
+  .main-info-block {
+    top: 33%;
+    left: 15%;
+  }
+
+  .secondary-heading-img {
+    width: 70%;
+  }
+
+  .secondary-heading-block {
+    top: 47%;
+  }
+
+  .supplemant-heading-img {
+    width: 75%;
+  }
+
+  .supplemant-heading-block {
+    left: 5%;
+  }
+
+  .supplement-main-img {
+    width: 85%;
+  }
+
+  .supplement-main-img-block {
+    right: -4%;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-bg-container {
+    height: 65vh;
+  }
+
+  .main-info-block {
+    top: 32%;
+    left: 10%;
+  }
+
+  .main-info-block img {
+    width: 130%;
+  }
+
+  .supplemant-heading-block {
+    text-align: center;
+  }
+
+  .supplemant-heading-img {
+    width: 55%;
+  }
+
+  .supplement-header {
+    padding-left: 5%;
+  }
+
+  .supplement-info-block {
+    width: 35%;
+    left: 8%;
+  }
+
+  .supplement-section {
+    height: 53vh;
+  }
+
+  .supplement-main-img {
+    width: 58%;
+  }
+
+  .supplement-main-img-block {
+    right: -34%;
+  }
+
+  button {
+    font-size: 1.5rem;
+    padding: 5px 25px;
+  }
+
+  .gear-section {
+    height: 55vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .gear-item-img {
+    width: 50%;
+  }
+
+  .gear-item-block {
+    left: 5%;
+  }
+
+  .gear-info-block {
+    width: 37%;
+    top: 50%;
+    left: 33%;
+  }
+
+  .gear-man-img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .gear-man-block {
+    right: -35%;
+  }
+
+  .gear-m-h img {
+    width: 70%;
+  }
+
+  .contact-container {
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .c-img-block img {
+    width: 100%;
+  }
+  .contact-container h1 {
+    font-size: 5rem;
+  }
+  .c-i-img-b img {
+    width: 64%;
+  }
+
+  .c-info-block {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-bg-container {
+    height: 45vh;
+  }
+  .supplement-info-block p {
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+  }
+  .supplement-section {
+    height: 50vh;
+  }
+  .supplement-main-img-block {
+    right: -60%;
+  }
+  .supplement-main-img {
+    width: 45%;
+  }
+  button {
+    font-size: 1rem;
+    padding: 5px 14px;
+  }
+  .gear-section {
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .gear-item-img {
+    width: 40%;
+  }
+  .gear-man-block {
+    right: -60%;
+  }
+  .contact-container h1 {
+    font-size: 4rem;
+  }
+  .c-i-img-b img {
+    width: 50%;
+  }
+  .contact-container {
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+
+  .gear-man-img {
+    width: 54%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  nav {
+    padding-left: 0.5rem;
+  }
+  .header-logo img {
+    width: 90%;
+  }
+
+  .header-logo {
+    margin-right: 0.4rem;
+  }
+
+  .hero-bg-container {
+    height: 30vh;
+  }
+
+  .supplement-section {
+    height: 30vh;
+  }
+
+  .supplement-info-block p {
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .supplement-main-img {
+    width: 29%;
+  }
+
+  button {
+    font-size: 0.5rem;
+  }
+
+  .supplement-main-img-block {
+    right: -130%;
+  }
+
+  .gear-section {
+    height: 30vh;
+  }
+
+  .gear-info-block p {
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .gear-man-img {
+    width: 32%;
+    height: 100%;
+  }
+
+  .gear-man-block {
+    right: -112%;
+  }
+
+  .c-para-img {
+    margin-top: 1rem;
+    width: 120%;
+  }
+
+  .c-img-block img {
+    width: 90%;
+  }
+
+  .contact-container h1 {
+    font-size: 2rem;
+  }
+
+  .c-i-img-b img {
+    width: 80%;
+  }
+
+  .c-i-img-b {
+    margin-top: 1rem;
+  }
+}
