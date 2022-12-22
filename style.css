@@ -39,6 +39,7 @@ nav {
   height: 160vh;
   background-color: black;
   position: relative;
+  /* text-align: center; */
 }
 
 .main-img-block {
@@ -196,6 +197,7 @@ button {
   width: 100vw;
   height: 70vh;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .gear-container {
@@ -359,9 +361,13 @@ footer h1 {
   .gear-m-h {
     left: 28%;
   }
+
+  .gear-m-h img {
+    width: 85%;
+  }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1370px) {
   .hero-bg-container {
     height: 100vh;
   }
@@ -371,7 +377,7 @@ footer h1 {
   }
 
   .main-info-block {
-    top: 33%;
+    top: 38%;
     left: 15%;
   }
 
@@ -380,7 +386,7 @@ footer h1 {
   }
 
   .secondary-heading-block {
-    top: 47%;
+    top: 55%;
   }
 
   .supplemant-heading-img {
@@ -400,6 +406,232 @@ footer h1 {
   }
 }
 
+@media (max-width: 1280px) {
+  .hero-bg-container {
+    height: 100vh;
+  }
+
+  .main-heading-block {
+    top: 12.5%;
+  }
+
+  .main-info-block {
+    top: 38%;
+    left: 15%;
+  }
+
+  .secondary-heading-img {
+    width: 70%;
+  }
+
+  .secondary-heading-block {
+    top: 55%;
+  }
+
+  .supplemant-heading-img {
+    width: 75%;
+  }
+
+  .supplemant-heading-block {
+    left: 5%;
+  }
+
+  .supplement-main-img {
+    width: 85%;
+  }
+
+  .supplement-main-img-block {
+    right: -4%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .hero-bg-container {
+    height: 85vh;
+  }
+
+  .main-heading-block {
+    top: 12.5%;
+  }
+
+  .main-info-block {
+    top: 38%;
+    left: 15%;
+  }
+
+  .secondary-heading-img {
+    width: 70%;
+  }
+
+  .secondary-heading-block {
+    top: 55%;
+  }
+
+  .supplemant-heading-img {
+    width: 60%;
+  }
+
+  .supplemant-heading-block {
+    left: -10%;
+  }
+
+  .supplement-main-img {
+    width: 75%;
+  }
+
+  .supplement-main-img-block {
+    right: -17%;
+  }
+
+  .supplement-info-block p {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .gear-item-img {
+    width: 75%;
+    height: 100%;
+  }
+
+  .gear-man-block {
+    right: -9%;
+  }
+
+  .gear-m-h img {
+    width: 80%;
+  }
+
+  .gear-man-img {
+    width: 85%;
+    height: 100%;
+  }
+
+  button {
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #971200;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 40px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 950px) and (max-height: 1368px) {
+  .hero-bg-container {
+    height: 50vh;
+  }
+
+  .supplement-section {
+    height: 37vh;
+  }
+
+  .gear-section {
+    height: 43vh;
+  }
+
+  .supplement-main-img {
+    width: 60%;
+  }
+
+  .supplement-main-img-block {
+    right: -30%;
+  }
+
+  .contact-container h1 {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 860px) and (max-height: 1180px) {
+  .hero-bg-container {
+    height: 50vh;
+  }
+
+  .main-info-block {
+    top: 37%;
+    left: 15%;
+  }
+
+  .secondary-heading-block {
+    top: 60%;
+  }
+
+  .supplemant-heading-img {
+    width: 50%;
+  }
+
+  .supplemant-heading-block {
+    left: -30%;
+  }
+
+  .supplement-section {
+    height: 40vh;
+  }
+
+  .supplement-main-img {
+    width: 55%;
+  }
+
+  .supplement-main-img-block {
+    right: -37%;
+  }
+
+  .supplement-info-block {
+    width: 30%;
+  }
+
+  .gear-section {
+    height: 45vh;
+  }
+
+  .gear-item-img {
+    width: 65%;
+  }
+
+  .gear-man-img {
+    width: 70%;
+  }
+
+  .gear-man-block {
+    right: -22%;
+  }
+
+  .gear-m-h {
+    left: 27%;
+  }
+
+  .gear-m-h img {
+    width: 65%;
+  }
+
+  .gear-info-block {
+    width: 29%;
+    top: 53%;
+  }
+
+  .c-info-block {
+    margin-left: 1rem;
+  }
+
+  .c-i-img-b img {
+    width: 70%;
+  }
+
+  .c-img-block img {
+    width: 70%;
+  }
+
+  .contact-container h1 {
+    font-size: 4.5rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 800px) {
   .hero-bg-container {
     height: 65vh;
@@ -416,10 +648,11 @@ footer h1 {
 
   .supplemant-heading-block {
     text-align: center;
+    left: 0%;
   }
 
   .supplemant-heading-img {
-    width: 55%;
+    width: 50%;
   }
 
   .supplement-header {
@@ -553,6 +786,103 @@ footer h1 {
   }
 }
 
+@media (max-width: 465px) {
+  .hero-bg-container {
+    height: 40vh;
+  }
+
+  .main-info-block {
+    top: 34%;
+  }
+
+  .main-info-block img {
+    width: 180%;
+  }
+
+  .supplement-section {
+    height: 36vh;
+  }
+  .supplement-info-block p {
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+  }
+  .supplement-main-img {
+    width: 38%;
+  }
+  .supplement-main-img-block {
+    right: -93%;
+  }
+  .supplement-main-img-block {
+    right: -93%;
+  }
+  .gear-section {
+    height: 40vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .gear-info-block p {
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .c-info-block {
+    width: 65%;
+    margin-left: 1rem;
+  }
+
+  .c-i-img-b img {
+    width: 100%;
+  }
+  .contact-container h1 {
+    font-size: 3rem;
+  }
+  .c-para-img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .supplement-section {
+    height: 33vh;
+  }
+
+  .supplement-main-img-block {
+    right: -110%;
+  }
+  .supplement-main-img {
+    width: 33%;
+  }
+  .supplement-info-block p {
+    margin-bottom: 0.5rem;
+    font-size: 0.55rem;
+  }
+
+  .gear-section {
+    height: 35vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .gear-man-block {
+    right: -91%;
+  }
+
+  .gear-info-block p {
+    font-size: 0.65rem;
+  }
+
+  .gear-man-img {
+    width: 35%;
+    height: 100%;
+  }
+  button {
+    font-size: 0.7rem;
+    padding: 5px 14px;
+  }
+}
+
 @media (max-width: 390px) {
   nav {
     padding-left: 0.5rem;
@@ -566,11 +896,11 @@ footer h1 {
   }
 
   .hero-bg-container {
-    height: 30vh;
+    height: 35vh;
   }
 
   .supplement-section {
-    height: 30vh;
+    height: 35vh;
   }
 
   .supplement-info-block p {
@@ -586,13 +916,15 @@ footer h1 {
   }
 
   .supplement-main-img-block {
-    right: -130%;
+    right: -120%;
   }
 
   .gear-section {
     height: 30vh;
   }
-
+  .gear-info-block {
+    top: 53%;
+  }
   .gear-info-block p {
     font-size: 0.5rem;
     margin-bottom: 1rem;
@@ -625,5 +957,22 @@ footer h1 {
 
   .c-i-img-b {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-bg-container {
+    height: 45vh;
+  }
+  .supplement-section {
+    height: 42vh;
+  }
+
+  .supplement-main-img-block {
+    right: -130%;
+  }
+
+  .gear-section {
+    height: 40vh;
   }
 }
