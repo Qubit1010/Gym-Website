@@ -119,6 +119,8 @@ nav {
   height: 70vh;
   padding-top: 0.5rem;
   background-color: #971200;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .supplement-header {
