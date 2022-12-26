@@ -205,7 +205,7 @@ button {
 
 .gear-section {
   width: 100vw;
-  height: 70vh;
+  height: 85vh;
   background-color: black;
   overflow-x: hidden;
 }
@@ -791,6 +791,13 @@ footer h1 {
   }
   .c-info-block {
     margin-left: 1rem;
+  }
+  .contact-container h1 {
+    font-size: 3rem;
+  }
+  .c-i-img-b h2 {
+    font-size: 1rem;
+    font-style: italic;
   }
 }
 
